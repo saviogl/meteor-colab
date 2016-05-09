@@ -1,0 +1,42 @@
+/* CSS declarations go here */
+
+.question-textarea.container {
+  max-width: 800px;  
+}
+
+.glyphicon.glyphicon-trash {
+  font-size: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.row {
+  margin: 10px 0 10px 0;
+}
+
+.users-list{
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none 
+}
+
+.users-list li{
+  float: left;
+  clear: left;
+}
+
+.users-list li div{
+  padding: 10px;
+  width: 60px;
+}
+
+.users-list li div p{
+  margin: 0;
+}
+
+.glyphicon.glyphicon-user {
+  font-size: 20px;
+}
