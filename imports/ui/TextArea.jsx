@@ -45,9 +45,6 @@ export default class TextArea extends Component {
       if (prevProps.question.content !== this.props.question.content){
         if (userCursor < this.state.cursor) {
           let diff = this.props.question.content.length - this.state.length;
-          console.log('diff', diff);
-          console.log('userCursor', userCursor);
-          console.log('owncusor', this.state.cursor);
           if (diff > 0) {
             this.setState({
               cursor: this.state.cursor + diff,
